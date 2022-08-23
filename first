@@ -1,0 +1,14 @@
+a = [[1, 2, 3],
+     [4, 5, 6],
+     [7, 8, 9]]
+
+print(a)
+
+b = [row[1] + 1 for row in a]
+print(b)
+
+c = [row[0] + 2 for row in a]
+print(c)
+
+d = [row[2] for row in a if row[2] % 2 == 0]
+print(d)
